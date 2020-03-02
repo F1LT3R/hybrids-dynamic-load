@@ -19,7 +19,7 @@ define(name, {
     `,
 })
 
-// The name is exported for as the custom element name
+// The name is exported for use as the custom element name
 export default name
 ```
 
