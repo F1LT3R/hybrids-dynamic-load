@@ -6,7 +6,7 @@ define(name, {
   render: () =>
     html`
       <div>
-        <h2>Welcome Page</h1>
+        <h2>Welcome Page</h2>
         <p>This Welcome page was dynamically loaded.</p>
       </div>
     `,

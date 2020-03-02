@@ -6,8 +6,12 @@ define(name, {
   render: () =>
     html`
       <div>
-        <h2>Other Page</h1>
-        <p>This Other page was <i>also</i> dynamically loaded.</p>
+        <h2>Other Page</h2>
+        <p>
+          This Other page was
+          <i>also</i>
+          dynamically loaded.
+        </p>
       </div>
     `,
 })

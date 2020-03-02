@@ -32,6 +32,21 @@ const HybridsApp = {
         <hr />
 
         <article innerHTML="${page}"></article>
+
+        <hr />
+
+        <footer>
+          <ul>
+            <li>
+              <a href="https://github.com/f1lt3r/hybrids-dynamic-load/">
+                See this code on Github
+              </a>
+            </li>
+            <li>
+              <a href="https://f1lt3r.io">Visit my homepage</a>
+            </li>
+          </ul>
+        </footer>
       </div>
     `,
 }
