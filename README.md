@@ -26,7 +26,7 @@ export default name
 ## The Main App Module
 
 ```js
-// The dynamic loader fetches the module at run time
+// This dynamic load function fetches the module at run time
 const load = async (host, event) => {
     // Get the module URL from a DOM attribute
     const pageUrl = event.target.getAttribute('page')
@@ -43,7 +43,7 @@ const load = async (host, event) => {
 const HybridsApp = {
     appName: 'Welcome to Hybrids!',
 
-    // Set a default for no page being loaded
+    // Set default placeholder content
     pageLoaded: '<span>No page loaded, yet.</span>',
 
     // Render the pageLoaded string
